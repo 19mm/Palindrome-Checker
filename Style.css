@@ -1,0 +1,89 @@
+*{
+	margin:0 auto;
+	font-family: Georgia;
+  
+}
+body{
+	height:753px;
+	background-color:#6eb9f5;
+	background-size:cover;
+	background-position:center;
+    text-align:center;
+}
+p{
+	font-weight:lighter;
+	font-size:1.1rem;
+	color:#FFF;
+}
+h1{
+    font-size:3rem;
+    padding-top:5px;
+    color:#600;
+    font-weight:lighter;
+	text-shadow:2px 1px #FFF;
+	}
+	
+.InputBox{
+	border:4px outset;
+	border-radius:50px;
+	padding:14px;
+    text-indent:5px;
+    width:600px;
+    background-color:#FFF;
+    margin:10px;
+    text-transform:Toggle;
+    font-weight:lighter;
+}
+.check{
+	width:100px;
+	height:40px;
+	margin-top:8px;
+	font-size:20px;
+	color:#FFF;
+	align-items:center;
+	font-weight:200;
+	background:#600;
+	border:4px outset #FFF;
+	border-radius:20px;
+}
+.nav{
+	width:90%;
+	margin:auto ;
+	padding:10px 0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.nav ul li{
+	list-style:none;
+	display:inline-block;
+	margin:10px 45px;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:1.15rem;
+	font-weight:lighter;
+}
+.nav .fas {
+	margin-right:6px;
+	color:#600;
+}
+.nav .fab {
+	margin-right:6px;
+	color:#600;
+}
+
+.Footer{
+	color:#600;
+	margin-top:20%;
+	margin-bottom:8px;
+	text-shadow:1px 1px #FFF;
+}
+
+.Footer-Icons .fab{
+	color:#FFF;
+	padding:12px 15px;
+	font-size:1.5rem;
+text-shadow:2px 1px #111;
+}
